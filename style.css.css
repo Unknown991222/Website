@@ -1,0 +1,95 @@
+body{
+	
+	color: #fff;
+	font-family:esthetique ;
+	font-size: large;
+	line-height: 1.5em;
+}
+a{
+	color: whitesmoke;
+	text-decoration: none;
+}
+ul{
+	padding: 0;
+}
+.clr{
+	clear: both;
+}
+#container{
+	background:rgba(rgb(117, 30, 30,0.4));
+	width: 960px;
+	margin: 30px auto;
+	overflow: hidden;
+	padding:10px;
+}
+#header{
+	align-content: center;
+}
+#nav{
+	height:40px;
+	background: rgba(60,60,60,0.5);
+}
+#nav ul{
+	padding-top: 13px;
+	padding-left: 10px;
+}
+#nav li{
+	list-style: none;
+	float: left;
+	padding-right: 20px;
+}
+#nav .active{
+	font-weight: bold;
+	color: #000;
+}
+#main{
+	float: left;
+	width: 60%;
+}
+#sidebar{
+	float: right;
+	width: 30%;
+	background: #666;
+	margin-top: 20px;
+	padding: 10px;
+}
+#footer{
+	text-align: center;
+	padding-top: 10px;
+	background: #666;
+	margin-top:30px;
+}
+.services a{
+	background:#666;
+	padding: 10px;
+}
+.services li{
+	border-bottom: 2px #666 dashed;
+	padding-bottom: 20px;
+}
+input ,textarea{
+	width: 100%;
+	padding: 5px;
+	margin-bottom:15px;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create two equal columns that sits next to each other */
+.column {
+  flex: 50%;
+  padding: 0 4px;
+}
+
+.column img {
+	max-width: fit-content;
+	align-items: flex-end;
+	width: 250px;
+	height: 250px;
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
